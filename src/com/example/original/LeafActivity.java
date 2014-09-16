@@ -95,6 +95,7 @@ public class LeafActivity extends Activity implements OnTouchListener {
 		// setResult() で bundle を載せた
 		// 送るIntent dataをセットする
 
+		// yびb
 		// savebutton.setImageResource(R.drawable.checkbt_new);
 		// saveのメソッド
 		SharedPreferences prefs = getSharedPreferences("Setting", Context.MODE_PRIVATE);
