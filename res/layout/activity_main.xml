@@ -1,0 +1,264 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/original_background"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    
+    <!--  <activity android:screenOrientation="landscape"></activity> -->
+    
+
+    <AbsoluteLayout
+        android:id="@+id/AbsoluteLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="math"
+                android:scaleType="fitStart"
+                android:src="@drawable/original_uibutton_math" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="english"
+                android:scaleType="fitStart"
+                android:src="@drawable/original_uibutton_english" />
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="science"
+                android:scaleType="fitStart"
+                android:src="@drawable/original_uibutton_science" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="social"
+                android:scaleType="fitStart"
+                android:src="@drawable/original_uibutton_social2" />
+
+            <ImageView
+                android:id="@+id/imageView6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:onClick="japanese"
+                android:scaleType="fitStart"
+                android:src="@drawable/original_uibutton_japanese" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="0dp"
+            android:layout_y="378dp"
+            android:orientation="vertical" >
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="194dp"
+                android:layout_height="wrap_content"
+                android:onClick="info"
+                android:src="@drawable/original_ui_new" />
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="195dp"
+                android:layout_height="wrap_content"
+                android:onClick="optionView"
+                android:src="@drawable/original_ui_options" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="56dp"
+            android:layout_y="26dp"
+            android:src="@drawable/tree2" />
+
+        <ImageView
+            android:id="@+id/happa2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="323dp"
+            android:layout_y="322dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green_rr"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="168dp"
+            android:layout_y="386dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green_ll"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="108dp"
+            android:layout_y="319dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="269dp"
+            android:layout_y="399dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green_rd"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="260dp"
+            android:layout_y="282dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green1"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="285dp"
+            android:layout_y="214dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green_rr"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="200dp"
+            android:layout_y="116dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="168dp"
+            android:layout_y="266dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green2"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/happa4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="133dp"
+            android:layout_y="188dp"
+            android:onClick="happawotouch"
+            android:src="@drawable/green2"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="269dp"
+            android:layout_y="332dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="76dp"
+            android:layout_y="331dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="87dp"
+            android:layout_y="181dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="265dp"
+            android:layout_y="274dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="155dp"
+            android:layout_y="108dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="282dp"
+            android:layout_y="210dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="279dp"
+            android:layout_y="412dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="162dp"
+            android:layout_y="401dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_x="130dp"
+            android:layout_y="262dp"
+            android:textStyle="bold" />
+
+    </AbsoluteLayout>
+
+</FrameLayout>
